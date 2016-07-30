@@ -7,6 +7,10 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 class TextBox(cocos.layer.Layer):
+    """A cocos layer that captures and displays keyboard input. Optionally,
+    it acts when an "enter" key is pressed; calling a given function with 
+    the text as a parameter and then clearing the text
+    """
 
     is_event_handler = True
 
