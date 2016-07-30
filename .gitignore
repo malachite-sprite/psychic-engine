@@ -1,0 +1,15 @@
+bin/
+lib/
+include/
+pip-selfcheck.json
+*.egg
+.eggs/
+.cache/
+PKG-INFO
+SOURCES.txt
+dependency_links.txt
+top_level.txt
+pyvenv.cfg
+.coverage
+*.pyc
+*__pycache__*
