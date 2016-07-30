@@ -1,0 +1,5 @@
+cocos2d==0.6.4
+coverage==4.2
+psychic-engine==0.0.0
+pyglet==1.2.4
+six==1.10.0
