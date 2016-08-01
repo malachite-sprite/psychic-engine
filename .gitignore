@@ -13,3 +13,4 @@ pyvenv.cfg
 .coverage
 *.pyc
 *__pycache__*
+.Python
