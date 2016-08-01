@@ -19,6 +19,7 @@ organize this enough to be able to make some progress on weekends.
     - [ ] add a simple scrolling map
 - [ ] get started with wit
     - [X] add text entry box to app
+    - [X] get simple wit connection set up
     - [ ] get character to respond to simple commands
 
 #### Adding some Depth
