@@ -1,4 +1,6 @@
 from sources import main
 
-def test_main():
-    assert main.example() == 42
+class TestMain():
+    def test_vanilla(self):
+       main.main(None) 
+
