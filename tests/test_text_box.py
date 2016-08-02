@@ -5,7 +5,11 @@ import pyglet
 
 class TestTextBox():
 
-    cocos.director.director.init()
+    def setup(self):
+        cocos.director.director.init()
+
+    def teardown(self):
+        cocos.director.director.pop()
 
     def mock_key_pressed(self, box, string):
         for char in string:
