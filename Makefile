@@ -2,14 +2,14 @@
 # generally setting up the box
 default: install
 
-install: requirements.txt sources/ 
+install: requirements.txt
 	virtualenv -p python3 --no-site-packages ./
+	python setup.py install
 	pip install --upgrade -r requirements.txt
 
-test: tests/
-	coverage run py.test tests/
-	coverate report
+store:
+	pip freeze > requirements.txt
 
-report: 
-	coverage report
+test: tests/
+	py.test --cov=tests/ tests/
 
