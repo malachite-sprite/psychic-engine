@@ -7,6 +7,7 @@ install: requirements.txt
 	source bin/activate; \
 	python setup.py install; \
 	pip install --upgrade -r requirements.txt; \
+	echo 'remember to source bin/activate!'; \
 
 store:
 	pip freeze > requirements.txt
