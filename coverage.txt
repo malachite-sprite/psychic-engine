@@ -1,8 +1,8 @@
-Name                     Stmts   Miss  Cover
---------------------------------------------
-sources/__init__.py          0      0   100%
-sources/main.py             14      0   100%
-sources/text_box.py         34      0   100%
-sources/wit_handler.py      22      0   100%
---------------------------------------------
-TOTAL                       70      0   100%
+Name                        Stmts   Miss  Cover
+-----------------------------------------------
+tests/test_characters.py       16      4    75%
+tests/test_main.py              9      0   100%
+tests/test_text_box.py         44      0   100%
+tests/test_wit_handler.py      36      1    97%
+-----------------------------------------------
+TOTAL                         105      5    95%

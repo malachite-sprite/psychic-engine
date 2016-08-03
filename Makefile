@@ -11,6 +11,7 @@ install: requirements.txt
 
 store:
 	pip freeze > requirements.txt
+	coverage report > coverage.txt
 
 test: tests/
 	py.test --cov=tests/ tests/
