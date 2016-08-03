@@ -4,6 +4,7 @@ default: install
 
 install: requirements.txt
 	virtualenv -p python3 --no-site-packages ./
+	source bin/activate
 	python setup.py install
 	pip install --upgrade -r requirements.txt
 
